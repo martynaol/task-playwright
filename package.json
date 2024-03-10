@@ -6,7 +6,6 @@
   "scripts": {
     "lint": "eslint '**/*{.ts,.js}' --ignore-pattern node_modules/ --fix",
     "test": "playwright test --headed",
-    "test:headless": "playwright test --headless",
     "test:debug": "playwright test --debug",
     "test:ui:chromium": "playwright test  --ui --project=chromium"
   },
