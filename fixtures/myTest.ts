@@ -10,10 +10,14 @@ interface PageObjects {
     mainPage: MainPage;
     productDetailsPage: ProductDetailsPage;
     cartPage: CartPage;
-    checkoutPage: CheckoutPage
+    checkoutPage: CheckoutPage;
+    productName: string;
+    quantity:number
 }
 
 const test = myTest.extend<PageObjects>({
+    productName: 'Little Black Top',
+    quantity: 1,
     header: async ({ page }, use) => {
         await use(new Header(page));
     },

@@ -7,6 +7,7 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: 0,
   workers: undefined,
+  globalTimeout: 60 * 60 * 1000,
   reporter: `html`,
   use: {
     baseURL: `https://skleptest.pl`,

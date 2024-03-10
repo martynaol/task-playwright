@@ -12,7 +12,7 @@ export default class CheckoutPage {
     }
 
     public async assertCheckoutPage() {
-        await expect(this.page).toHaveURL(/checkout/, {timeout: 10000});
+        await expect(this.page).toHaveURL(/checkout/);
         await expect(this.page).toHaveTitle(`Checkout`);
     }
 }

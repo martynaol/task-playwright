@@ -24,6 +24,6 @@ export default class MainPage {
     }
 
     public async clickCartBtn() {
-        await this.CART_BUTTON_LOCATOR.click({ timeout: 10000 });
+        await this.CART_BUTTON_LOCATOR.click();
     }
 }

@@ -7,6 +7,7 @@
     "lint": "eslint '**/*{.ts,.js}' --ignore-pattern node_modules/ --fix",
     "test": "playwright test --headed",
     "test:debug": "playwright test --debug",
+    "test:smoke:chromium": "playwright test --grep @smoke --project=chromium",
     "test:ui:chromium": "playwright test  --ui --project=chromium"
   },
   "keywords": [],

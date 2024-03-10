@@ -26,7 +26,7 @@ export default class CartPage {
     }
 
     public async assertCart(productName: string, quantity: number) {
-        await expect(this.page).toHaveURL(/cart/, { timeout: 10000 });
+        await expect(this.page).toHaveURL(/cart/);
         await this.getProductRow(productName);
         await expect(this.QUANTITY_INPUT_LOCATOR).toHaveAttribute(`value`, quantity.toString());
     }
