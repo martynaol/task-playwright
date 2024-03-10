@@ -1,0 +1,10 @@
+{
+  "typeRoots": ["./node_modules/@types"],
+  "compilerOptions": {
+      "sourceMap": false,
+      "allowJs": true,
+      "types": ["playwright", "node"],
+      "outDir": "./dist/out-tsc"
+    },
+    "include": ["pages/**/*.ts", "pages/**/*.js","tests/**/*.ts", "tests/**/*.js", ".eslintrc.js"]
+}
