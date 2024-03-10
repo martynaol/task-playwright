@@ -6,7 +6,7 @@ This repository contatins end-to-end tests for web application (https://skleptes
 
 Prerequisites: 
  - Download and install NodeJS 14(or above)
- - Clone the repo using the below URL: https://github.com/martynaol/playwright-skleptest.pl
+ - Clone the repo using the below URL: https://github.com/martynaol/task-playwright.git
  - Navigate to the folder and install npm packages using:
 
 ```
